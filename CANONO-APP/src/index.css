@@ -1,0 +1,57 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.headers,
+.citizen {
+  display: grid;
+  grid-template-columns: 50px 1fr 100px 2fr 100px 100px;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.headers {
+  font-weight: bold;
+}
+
+.citizen {
+  border-bottom: 1px solid #ddd;
+}
+
+.citizen button {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  background: #fff;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #000;
+  width: 100%;
+  max-width: 300px;
+}
